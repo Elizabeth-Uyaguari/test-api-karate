@@ -22,15 +22,15 @@
       <img src="karate-logo.svg" alt="Karate"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">5</div>
-      <div id="nav-fail" class="bg-danger">0</div>
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">2</div>
     </div>
   </div>
   <div id="nav-type">
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2024-01-22 01:19:28 a. m.</div>
+    <div>2024-01-22 01:17:44 a. m.</div>
   </div>        
 </div>
 
@@ -44,10 +44,10 @@
           <div class="nav-item passed">
             <a href="#[3:18]"><span>[3:18]</span> <span>Put user</span></a>
           </div>
-          <div class="nav-item passed">
+          <div class="nav-item failed">
             <a href="#[4:24]"><span>[4:24]</span> <span>Get user after update</span></a>
           </div>
-          <div class="nav-item passed">
+          <div class="nav-item failed">
             <a href="#[5:29]"><span>[5:29]</span> <span>Delete user</span></a>
           </div>
         </div>
@@ -74,7 +74,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1245</span>
+              <span>ms:</span>&nbsp;<span>1552</span>
             </div>
           </div>
           <div class="step-row">
@@ -97,7 +97,7 @@
         <span>*</span>&nbsp;<span>url &quot;https://petstore.swagger.io/v2/user&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">80</div>
+    <div class="time-cell passed">111</div>
   </div>
 
    
@@ -125,7 +125,7 @@
         <span>*</span>&nbsp;<span>def var = {  &quot;id&quot;: 1, &quot;username&quot;: &quot;Elizabeth&quot;, &quot;firstName&quot;: &quot;Elizabeth&quot;,   &quot;lastName&quot;: &quot;Uyaguari&quot;,  &quot;email&quot;: &quot;ely.uyaguar@gmail.com&quot;,  &quot;password&quot;: &quot;ely123&quot;,  &quot;phone&quot;: &quot;0980369624&quot;,  &quot;userStatus&quot;: 1}</span>
       </div>
     </div>
-    <div class="time-cell passed">62</div>
+    <div class="time-cell passed">70</div>
   </div>
 
    
@@ -181,7 +181,7 @@
         <span>When</span>&nbsp;<span>request var</span>
       </div>
     </div>
-    <div class="time-cell passed">44</div>
+    <div class="time-cell passed">22</div>
   </div>
 
    
@@ -209,7 +209,7 @@
         <span>And</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1057</div>
+    <div class="time-cell passed">1347</div>
   </div>
 
    
@@ -218,7 +218,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.10">01:19:26.333 request:
+  <div class="preformatted" data-parent="0.10">01:17:42.045 request:
 1 &gt; POST https://petstore.swagger.io/v2/user/
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 165
@@ -228,9 +228,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;id&quot;:1,&quot;username&quot;:&quot;Elizabeth&quot;,&quot;firstName&quot;:&quot;Elizabeth&quot;,&quot;lastName&quot;:&quot;Uyaguari&quot;,&quot;email&quot;:&quot;ely.uyaguar@gmail.com&quot;,&quot;password&quot;:&quot;ely123&quot;,&quot;phone&quot;:&quot;0980369624&quot;,&quot;userStatus&quot;:1}
 
-01:19:26.903 response time in milliseconds: 566
+01:17:42.935 response time in milliseconds: 881
 1 &lt; 200
-1 &lt; Date: Mon, 22 Jan 2024 06:19:27 GMT
+1 &lt; Date: Mon, 22 Jan 2024 06:17:43 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -288,7 +288,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>269</span>
+              <span>ms:</span>&nbsp;<span>316</span>
             </div>
           </div>
           <div class="step-row">
@@ -311,7 +311,7 @@
         <span>*</span>&nbsp;<span>url &quot;https://petstore.swagger.io/v2/user&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -339,7 +339,7 @@
         <span>*</span>&nbsp;<span>def var = {  &quot;id&quot;: 1, &quot;username&quot;: &quot;Elizabeth&quot;, &quot;firstName&quot;: &quot;Elizabeth&quot;,   &quot;lastName&quot;: &quot;Uyaguari&quot;,  &quot;email&quot;: &quot;ely.uyaguar@gmail.com&quot;,  &quot;password&quot;: &quot;ely123&quot;,  &quot;phone&quot;: &quot;0980369624&quot;,  &quot;userStatus&quot;: 1}</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -367,7 +367,7 @@
         <span>Given</span>&nbsp;<span>path &quot;/Elizabeth&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -395,7 +395,7 @@
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">267</div>
+    <div class="time-cell passed">310</div>
   </div>
 
    
@@ -404,7 +404,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.15">01:19:26.919 request:
+  <div class="preformatted" data-parent="0.15">01:17:42.976 request:
 1 &gt; GET https://petstore.swagger.io/v2/user/Elizabeth
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
@@ -412,9 +412,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-01:19:27.184 response time in milliseconds: 265
+01:17:43.278 response time in milliseconds: 302
 1 &lt; 200
-1 &lt; Date: Mon, 22 Jan 2024 06:19:27 GMT
+1 &lt; Date: Mon, 22 Jan 2024 06:17:43 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -472,7 +472,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>276</span>
+              <span>ms:</span>&nbsp;<span>294</span>
             </div>
           </div>
           <div class="step-row">
@@ -495,7 +495,7 @@
         <span>*</span>&nbsp;<span>url &quot;https://petstore.swagger.io/v2/user&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -523,7 +523,7 @@
         <span>*</span>&nbsp;<span>def var = {  &quot;id&quot;: 1, &quot;username&quot;: &quot;Elizabeth&quot;, &quot;firstName&quot;: &quot;Elizabeth&quot;,   &quot;lastName&quot;: &quot;Uyaguari&quot;,  &quot;email&quot;: &quot;ely.uyaguar@gmail.com&quot;,  &quot;password&quot;: &quot;ely123&quot;,  &quot;phone&quot;: &quot;0980369624&quot;,  &quot;userStatus&quot;: 1}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -551,7 +551,7 @@
         <span>Given</span>&nbsp;<span>path &quot;/Elizabeth&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -579,7 +579,7 @@
         <span>And</span>&nbsp;<span>request { &quot;username&quot;: &quot;Ely&quot;, &quot;email&quot;: &quot;ely.uyagua@gmail.com&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -607,7 +607,7 @@
         <span>When</span>&nbsp;<span>method PUT</span>
       </div>
     </div>
-    <div class="time-cell passed">274</div>
+    <div class="time-cell passed">290</div>
   </div>
 
    
@@ -616,7 +616,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.21">01:19:27.192 request:
+  <div class="preformatted" data-parent="0.21">01:17:43.311 request:
 1 &gt; PUT https://petstore.swagger.io/v2/user/Elizabeth
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 49
@@ -626,9 +626,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;Ely&quot;,&quot;email&quot;:&quot;ely.uyagua@gmail.com&quot;}
 
-01:19:27.463 response time in milliseconds: 271
+01:17:43.595 response time in milliseconds: 284
 1 &lt; 200
-1 &lt; Date: Mon, 22 Jan 2024 06:19:28 GMT
+1 &lt; Date: Mon, 22 Jan 2024 06:17:44 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -685,8 +685,8 @@
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>295</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>292</span>
             </div>
           </div>
           <div class="step-row">
@@ -709,7 +709,7 @@
         <span>*</span>&nbsp;<span>url &quot;https://petstore.swagger.io/v2/user&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -737,7 +737,7 @@
         <span>*</span>&nbsp;<span>def var = {  &quot;id&quot;: 1, &quot;username&quot;: &quot;Elizabeth&quot;, &quot;firstName&quot;: &quot;Elizabeth&quot;,   &quot;lastName&quot;: &quot;Uyaguari&quot;,  &quot;email&quot;: &quot;ely.uyaguar@gmail.com&quot;,  &quot;password&quot;: &quot;ely123&quot;,  &quot;phone&quot;: &quot;0980369624&quot;,  &quot;userStatus&quot;: 1}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -793,7 +793,7 @@
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">293</div>
+    <div class="time-cell passed">289</div>
   </div>
 
    
@@ -802,7 +802,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.26">01:19:27.475 request:
+  <div class="preformatted" data-parent="0.26">01:17:43.622 request:
 1 &gt; GET https://petstore.swagger.io/v2/user/Ely
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
@@ -810,9 +810,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-01:19:27.766 response time in milliseconds: 291
-1 &lt; 200
-1 &lt; Date: Mon, 22 Jan 2024 06:19:28 GMT
+01:17:43.904 response time in milliseconds: 281
+1 &lt; 404
+1 &lt; Date: Mon, 22 Jan 2024 06:17:44 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -820,7 +820,7 @@
 1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;id&quot;:9223372036854775807,&quot;username&quot;:&quot;Ely&quot;,&quot;email&quot;:&quot;ely.uyagua@gmail.com&quot;,&quot;userStatus&quot;:0}
+{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;User not found&quot;}
 
 </div>   
 
@@ -835,13 +835,13 @@
 
   <div class="step-row">
     <div class="step-container" id="0.27">
-      <div class="step-ref passed">27</div>
+      <div class="step-ref failed">27</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell failed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell failed">0</div>
   </div>
 
    
@@ -850,7 +850,12 @@
 
   
 
-     
+  <div class="preformatted" data-parent="0.27">01:17:43.909 src/test/java/users/maintenance/user-maintenance.feature:27
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 281, url: https://petstore.swagger.io/v2/user/Ely, response: 
+{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;User not found&quot;}
+src/test/java/users/maintenance/user-maintenance.feature:27
+</div>   
 
   
 
@@ -869,8 +874,8 @@
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>268</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>287</span>
             </div>
           </div>
           <div class="step-row">
@@ -893,7 +898,7 @@
         <span>*</span>&nbsp;<span>url &quot;https://petstore.swagger.io/v2/user&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -921,7 +926,7 @@
         <span>*</span>&nbsp;<span>def var = {  &quot;id&quot;: 1, &quot;username&quot;: &quot;Elizabeth&quot;, &quot;firstName&quot;: &quot;Elizabeth&quot;,   &quot;lastName&quot;: &quot;Uyaguari&quot;,  &quot;email&quot;: &quot;ely.uyaguar@gmail.com&quot;,  &quot;password&quot;: &quot;ely123&quot;,  &quot;phone&quot;: &quot;0980369624&quot;,  &quot;userStatus&quot;: 1}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -977,7 +982,7 @@
         <span>When</span>&nbsp;<span>method DELETE</span>
       </div>
     </div>
-    <div class="time-cell passed">268</div>
+    <div class="time-cell passed">284</div>
   </div>
 
    
@@ -986,7 +991,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.31">01:19:27.773 request:
+  <div class="preformatted" data-parent="0.31">01:17:43.932 request:
 1 &gt; DELETE https://petstore.swagger.io/v2/user/Ely
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
@@ -994,17 +999,16 @@
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-01:19:28.038 response time in milliseconds: 264
-1 &lt; 200
-1 &lt; Date: Mon, 22 Jan 2024 06:19:28 GMT
-1 &lt; Content-Type: application/json
-1 &lt; Transfer-Encoding: chunked
+01:17:44.208 response time in milliseconds: 275
+1 &lt; 404
+1 &lt; Date: Mon, 22 Jan 2024 06:17:44 GMT
+1 &lt; Content-Length: 0
 1 &lt; Connection: keep-alive
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;code&quot;:200,&quot;type&quot;:&quot;unknown&quot;,&quot;message&quot;:&quot;Ely&quot;}
+
 
 </div>   
 
@@ -1019,13 +1023,13 @@
 
   <div class="step-row">
     <div class="step-container" id="0.32">
-      <div class="step-ref passed">32</div>
+      <div class="step-ref failed">32</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell failed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell failed">0</div>
   </div>
 
    
@@ -1034,7 +1038,12 @@
 
   
 
-     
+  <div class="preformatted" data-parent="0.32">01:17:44.214 src/test/java/users/maintenance/user-maintenance.feature:32
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 275, url: https://petstore.swagger.io/v2/user/Ely, response: 
+
+src/test/java/users/maintenance/user-maintenance.feature:32
+</div>   
 
   
 

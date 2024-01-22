@@ -1,7 +1,7 @@
 Instrucciones:
 
 1. De preferencia abrir el proyecto en el IDE IntelliJ.
-2. Abrir el archivo Features que está ubicado dentro de la carpeta test/java/users/maintenance.
+2. Ir a la carpeta maintenance que está ubicado en la ruta test/java/users/maintenance.
 3. Abrir el archivo user-maintenance.feature.
 4. Ejecutar el Feature CRUD user.
 
