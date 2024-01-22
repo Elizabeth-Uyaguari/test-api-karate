@@ -1,0 +1,18 @@
+Conclusiones:
+
+1. Se definió un solo feature con todos los casos solicitados de la siguiente manera:
+
+Se definió un Background para especificar datos que se van a reutilizar en los diferentes escenarios,
+en este caso la url y una variable con el json para la creacion del usuario.
+
+1.1 Para Crear un usuario se tiene el escenario Create User
+1.2 Para Buscar el usuario creado se tiene el escenario Get user
+1.3 Para Actualizar el nombre y el correo del usuario se definió el escenario Put user
+1.4 Para Buscar el usuario actualizado se definió el escenario Get user after update
+1.5 Para Eliminar el usuario se definió el escenario Delete user
+
+2. En este trabajo se realizaron escenarios para los casos de pruebas satisfatorias, es decir,
+ para los códigos Http 2XX, sin embargo es importante tener en cuenta que también se tienen que realizar escenarios
+ de pruebas de casos negativas para los códigos Http 4XX, 5XX.
+
+3. De esta manera Karate permite automatizar las pruebas hacia las Apis.
