@@ -16,3 +16,4 @@ en este caso la url y una variable con el json para la creacion del usuario.
  de pruebas de casos negativas para los códigos Http 4XX, 5XX.
 
 3. De esta manera Karate permite automatizar las pruebas hacia las Apis.
+4. Se tiene como resultado 5 Tests aprobados.
