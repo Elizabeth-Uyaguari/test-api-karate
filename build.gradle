@@ -8,6 +8,19 @@ repositories {
     }
 }
 
+test {
+    useJUnitPlatform()
+}
+
 dependencies {
     testImplementation('com.intuit.karate:karate-junit5:1.2.0.RC4')
+}
+
+sourceSets {
+    test {
+        resources {
+            srcDir file('src/test/java')
+            exclude('**/*java')
+        }
+    }
 }
